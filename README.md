@@ -6,6 +6,8 @@ e conversão automática de USD para BRL.
 Projeto desenvolvido em Python utilizando Streamlit, MongoDB e APIs públicas.
 
 ---
+--## Demonstração
+![Dashboard de Criptomoedas](docs/dashboard_cripto)
 
 ## 🚀 Funcionalidades
 
