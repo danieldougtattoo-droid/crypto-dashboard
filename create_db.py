@@ -1,8 +1,13 @@
+import os
+from dotenv import load_dotenv
 from pymongo import MongoClient
 from datetime import datetime, timezone
 
 #Conexão direta com o MongoDB
-client = MongoClient("mongodb://localhost:27017/")
+
+load_dotenv()
+url = os.getenv("MONGO_URI")
+client = MongoClient(url)
 
 db = client['crypto_db']
 collection = db['prices']
